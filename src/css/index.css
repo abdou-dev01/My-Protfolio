@@ -656,11 +656,13 @@ header .introduce p {
 .contact p {
   font-size: 1.2rem;
   letter-spacing: var(--letterSpacing);
+  margin: 5px;
 }
 .contact .my-contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .contact .my-contact p {
   text-transform: capitalize;
